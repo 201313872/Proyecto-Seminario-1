@@ -1,0 +1,601 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Sitio.master.cs" Inherits="PerfilSS1.Sitio" %>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Proyecto SS1 - 201313872</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="css/style.css" rel="stylesheet">
+
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+  <!-- =======================================================
+    Theme Name: MyResume
+    Theme URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+  <div class="wrapper" id="wrapper">
+    <header>
+      <div class="banner row" id="banner">
+        <div class="parallax text-center" style="background-image: url(img/fondo.jpg);">
+          <div class="parallax-pattern-overlay">
+            <div class="container text-center" style="height:600px;padding-top:170px;">
+              <a ><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="img/foto.png" alt=""/></a>
+              <h2 class="intro"><a href="#">Esteban Alvarez</a></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="navbar-wrapper">
+          <div class="container">
+            <div class="navwrapper">
+              <div class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                  <div class="navArea">
+                    <div class="navbar-collapse collapse">
+                      <ul class="nav navbar-nav">
+                        <li class="menuItem active"><a href="#wrapper">Inicio</a></li>
+                        <li class="menuItem"><a href="#estudios">Estudios</a></li>
+                        <li class="menuItem"><a href="#habilidades">Habilidades</a></li>  
+                        <li class="menuItem"><a href="#experiencia">Experiencia</a></li>  
+                        <li class="menuItem"><a href="#logros">Logros</a></li>           
+                        <li class="menuItem"><a href="#recomendacion">Recomendaciones</a></li>
+                        <li class="menuItem"><a href="#hobbies">Hobbies</a></li>
+                        <li class="menuItem"><a href="#informacion">Informacion</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+      <!--education-->
+    <section class="estudios" id="estudios">
+      <div class="container">
+        <div class="heading">
+          <h2>Educacion</h2>
+          <h3>Estudios de Diversificado y Estudios Universitarios</h3>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+          <div class="text-center">
+            <div class="hi-icon-wrap hi-icon-effect">
+              <h4>PERITO ELECTRONICA DE COMPUTACION</h4>
+              <h5>2009 - 2011</h5>
+              <i class="fa fa-book"></i>
+              <p>Centro Educativo Tecnico Laboral KINAL</p>
+                <br>
+                <div class="text-justify">
+                <p>Realizo sus estudios en el CETL Kinal graduandoce de la carrera de Electronica de Computacion, realizando estudios
+                   de:		<ul>
+								<li>Electronica Analogica</li>
+								<li>Electronica Digital</li>
+								<li>Cisco IT</li>
+                                <li>Cisco CCNA</li>
+							</ul>
+				</p>
+                </div>
+             </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
+          <div class="text-center">
+            <div class="hi-icon-wrap hi-icon-effect">
+              <h4>INGENIERIA EN CIENCIAS Y SISTEMAS</h4>
+              <h5>2013 - PRESENTE</h5>
+              <i class="fa fa-laptop"></i>
+              <p>Universida de San Carlos de Guatemala</p>
+                <br>
+                <div class="text-justify">
+							<p> Actualmente se encuentra cursando el septimo semestre de la carrera de Ingenieria en Ciancias y Sistemas de la facultad de ingenieria
+                                de la Universidad de Sancarlos de Guatemala desempeñando en las areas:
+                                <ul>
+											<li>Matematica para Ingenieria</li>
+											<li>Fisica y Quimica</li>
+											<li>Humanistica</li>
+                                            <li>Lenguajes de Programacion</li>
+                                            <li>Bases de Datos</li>
+                                            <li>Electronica Analogica/Digital</li>
+                                            <li>Lenguaje a Bajo Nivel</li>
+                                            <li>Gestion de Proyectos</li>
+                                            <li>Emprendimiento</li>
+                                            <li>Otros</li>    
+										</ul>
+
+							</p>
+                </div>
+             </div>
+          </div>
+        </div>
+      </div>
+
+    <section class="footer" id="footer">
+      <p class="text-center">
+        <a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
+      </p>
+    </section>
+
+    </section>
+
+
+   
+
+    <!--skills-->
+    <section class="habilades" id="habilidades">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>Habilidades</h2>
+          <h3>
+              El desarrollo educativo ha permitido amplicar y desarrollar habilidades en distintas ramas de la
+              carrera que actualmente se desarrolla, asi como ampliar como seguir con el desarrollo de deversas herramientas
+              previamente aprendidas y nuevas. 
+          </h3>
+        </div>
+      </div>
+
+        <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aj43gH5xL0Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </center>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s" ">
+					<div class="skill ">
+						<div class="progress-wrap ">
+							<h3>Programacion</h3>
+							<div class="progress ">
+							  <div class="progress-bar color1 " role="progressbar " aria-valuenow="40 " aria-valuemin="0 " aria-valuemax="100 " style="width: 70% ">
+								<span class="bar-width ">70%</span>
+							  </div>
+
+							</div>
+						</div>
+
+						<div class="progress-wrap ">
+							<h3>Internet de las Cosas</h3>
+							<div class="progress ">
+							  <div class="progress-bar color2 " role="progressbar " aria-valuenow="20 " aria-valuemin="0 " aria-valuemax="100 " style="width: 60% ">
+							   <span class="bar-width ">60%</span>
+							  </div>
+							</div>
+						</div>
+
+						<div class="progress-wrap ">
+							<h3>Gestion de Proyectos</h3>
+							<div class="progress ">
+							  <div class="progress-bar color3 " role="progressbar " aria-valuenow="60 " aria-valuemin="0 " aria-valuemax="100 " style="width: 50% ">
+								<span class="bar-width ">50%</span>
+							  </div>
+							</div>
+						</div>
+
+						<div class="progress-wrap ">
+							<h3>Emprendimiento</h3>
+							<div class="progress ">
+							  <div class="progress-bar color4 " role="progressbar " aria-valuenow="80 " aria-valuemin="0 " aria-valuemax="100 " style="width: 60% ">
+								<span class="bar-width ">60%</span>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 wow fadeInRight " data-wow-offset="0 " data-wow-delay="0.6s "">
+            <img src="img/codigo.jpg" class="img-responsive">
+          </div>
+        </div>
+      </div>
+
+                   <center> <h3> Habilidades Destacados</h3>   </center>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="skills">
+              <h3 class="main text-center"></h3>
+              <div class="restitem clearfix">
+               <center>
+                  <img src="img/android.png" alt="Person 0" height="40px" width="40px"/>
+                  <h5>ANDROID</h5>
+
+                  <img src="img/arduino.jpg"alt="Person 0" height="40px" width="40px"/>
+                  <h5>ARDUINO</h5>
+
+                  <img src="img/blender.png" alt="Person 0" height="40px" width="40px"/>
+                  <h5>BLENDER</h5>
+
+                  <img src="img/cisco.jpg" alt="Person 0" height="40px" width="40px"/>
+                  <h5>CISCO</h5>
+               </center>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+            <div class="skills">
+              <h3 class="main text-center"></h3>
+              <div class="restitem clearfix">
+               <center>
+                  <img src="img/gcp.jpg" alt="Person 0" height="40px" width="40px"/>
+                  <h5>GCP</h5>
+
+                  <img src="img/gogo.png" alt="Person 0" height="40px" width="40px"/>
+                  <h5>INDIEGOGO</h5>
+
+                  <img src="img/java.png" alt="Person 0" height="40px" width="40px"/>
+                  <h5>JAVA</h5>
+
+                  <img src="img/laravel.png" " alt="Person 0" height="40px" width="40px"/>
+                  <h5>LARAVEL</h5>
+               </center>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+            <div class="skills">
+              <h3 class="main text-center"></h3>
+              <div class="restitem clearfix">
+               <center>
+                  <img src="img/oracle.jpg" alt="Person 0" height="40px" width="40px"/>
+                  <h5>ORACLE</h5>
+
+                  <img src="img/php.jpg" alt="Person 0" height="40px" width="40px"/>
+                  <h5>PHP</h5>
+
+                  <img src="img/rabbit.png" alt="Person 0" height="40px" width="40px"/>
+                  <h5>RABBITMQ</h5>
+
+                  <img src="img/simio.png" alt="Person 0" height="40px" width="40px"/>
+                  <h5>SIMIO</h5>
+               </center>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+            <div class="skills">
+              <h3 class="main text-center"></h3>
+              <div class="restitem clearfix">
+               <center>
+                  <img src="img/sql.jpg" alt="Person 0" height="40px" width="40px"/>
+                  <h5>SQL SERVER</h5>
+
+                  <img src="img/wordpress.jpg" " alt="Person 0" height="40px" width="40px"/>
+                  <h5>WORDPRESS</h5>
+
+                  <img src="img/aws.png" " alt="Person 0" height="40px" width="40px"/>
+                  <h5>AWS</h5>
+
+                  <img src="img/azure.png" " alt="Person 0" height="40px" width="40px"/>
+                  <h5>AZURE</h5>
+               </center>
+            </div>
+          </div>
+        </div>
+      </div>
+            </div>  
+    <section class="footer" id="footer">
+      <p class="text-center">
+        <a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
+      </p>
+    </section>            
+    </section>
+
+
+ <!--Experiencia-->
+    <section class="experiencia" id="experiencia">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>Experiencia</h2>
+          <h3>
+                    Proyectos de Innovacion, Voluntariado y Nuevos Conocimientos contribuyen al crecimiento personal y la experienca
+                    aplicando conocimientos como IoT, Desarrollo Web, Gestion de Proyectos entreo otros, tambien el aprendizaje de un
+                    nuevo lenguaje contribuye a la experiencia y mejores oportunidades laborales.
+          </h3>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="papers text-center">
+              <img src="img/lamp.jpg" alt=""><br/>
+              <a href="#"><b>Oh My Lamp</b></a>
+              <h4 class="">Monitor de Sueño OhMyLamp</h4>
+                <div class="text-justify">
+                <p >
+                Fuen un proyecto de emprendimiento desarrollado en Arquitectura de Computadoras y Ensambladores 2 con el objetivo
+                de implementar un monitor de sueño aplicando las caracteristicas de Internet of Things, mediante el cual se analiza
+                los habitos de sueño de una persona mediante distintos sensores, otorgandole mediante una aplicacion los resultados y
+                distintas recomendaciones para mejorar la calidad de sueño, para dicho proyecto se lanzo una campaña de financiamiento
+                ademas de obtener apoyo de manera personal.
+                </p>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="papers text-center">
+              <img src="img/logousac.png" alt=""><br/>
+              <a href="#"><b>Universidad de San Carlos</b></a>
+              <h4 class="">Voluntariado en Info Usac, Archivo y Biblioteca</h4>
+                <div class="text-justify">
+              <p>
+                Se realizo voluntariado para la semana de Info Usac ayudando como guia para los futuros admitidos a la facultad de ingenieria. En
+                el area de Archivo de la facultad de ingenieria se brindo ayuda para digitalizar documentacion de ex-alumnos graduados de la facultad
+                de ingenieria, asi como la actualizacion de datos de pensum cerrado para dichos estudiantes. En la biblioteca de la facultade de 
+                ingenieria se realizo la busqueda, identificacion y reporte del moviliario correspondiente a la biblioteca.
+              </p>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="papers text-center">
+              <img src="img/ingles.jpg" alt=""><br/>
+              <a href="#"><b>Escuela de Lenguas UMG</b></a>
+              <h4 class="">Estudio de Idioma Ingles</h4>
+                <div class="text-justify">
+              <p>
+                Treas años de estudio de Idioma Ingles en la escuela de Lenguas de la Universidad Mariano Gavez cursando tres niveles de
+                principiantes, cuatro niveles de Ingles Intermedio y tres niveles de Ingles Avanzado.
+              </p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <section class="footer" id="footer">
+      <p class="text-center">
+        <a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
+      </p>
+    </section>
+    </section>
+
+
+
+
+<!--LOGROS-->
+    <section class="logros" id="logros">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>Logros</h2>
+          <h3>
+                La aplicacion de los conocimientos y experiencia adquirido se ha visto reflejada en la realizacion de
+                proyectos exitosos que han logrado recompensas.
+          </h3>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <div class="papers text-center">
+              <img src="img/jorgito.jpg" alt=""><br/>
+              <a href="#"><b>Jorgito</b></a>
+              <h4 class="">Estacion Meteorologica</h4>
+                <div class="text-justify">
+                <p >
+                La implementacion de una estacion meteorologica con sensores de presion, temperatura, humedad y luminocidad
+                para recolectar datos de un microclima en una region determindad, analizaba la data recolectada y generaba 
+                pronostico de clima mediante machine learning generaba recomendaciones de actividades a realizar segun la zona
+                y el clima. Dicho dispositivo obtubo el primer lugar en una competencia con un premio de financiaminto de una
+                cuenta de Google Play para lanzar al mercado la aplicacion del dispositivo.
+              </p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <section class="footer" id="footer9">
+      <p class="text-center">
+        <a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
+      </p>
+    </section>
+    </section>
+
+
+<!--hobbis-->
+    <section class="hobbies" id="hobbies">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>Hobbies</h2>
+          <h3>
+                La realizacion de actividades ajenas a las responsabilidades ayuda a el desarrollo personal
+                crear nuevas areas de expresion tal es el caso de la musica.
+          </h3>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <div class="papers text-center">
+              <img src="img/guitarra.jpg" alt=""><br/>
+              <a href="#"><b>Guitarra</b></a>
+              <h4 class="">Instrumento Musical</h4>
+                <div class="text-justify">
+                <p >
+                La musica a estado presente en mi vida debido a que mi abuelo tocaba la guitarra, inicio la enseñanza
+                luego 2 años de estudio en el Conservatorio Nacional de Musica "German Alcantara" mejoraron las habilidades
+                en la interpretacion del instrumento para luego convertirme en autodidacta y asi aprender nuevas tecnicas
+                utilizadas para guitarra clasica, acustica y electrica.
+              </p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <section class="footer" id="footer9">
+      <p class="text-center">
+        <a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
+      </p>
+    </section>
+    </section>
+
+
+    <!--Recomendaciones -->
+    <section class="recomendacion" id="recomendacion">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>Recomendaciones</h2>
+            <form runat="server">
+                <asp:Label ID="LabelError" runat="server"></asp:Label>
+            <br>
+
+          <h3>Recomienda</h3>
+                <p>
+                    <asp:Label ID="Label1" runat="server" Text="Nombre:"></asp:Label>
+                </p>
+            <asp:TextBox ID="Nombre" runat="server" Height="23px" Width="394px" ></asp:TextBox>
+            <br>
+                <asp:Label ID="Label2" runat="server" Text="Recomendacion:"></asp:Label>
+            <br>
+            <asp:TextBox ID="Recomenda" runat="server" Height="58px" TextMode="MultiLine" Width="398px" ></asp:TextBox>
+            <br>
+            <br>
+            <asp:Button class="color1" ID="Recomendar" runat="server" Text="Recomendar" OnClick="Recomendar_Click" />
+            <br>
+            <br>    
+           <br>
+                <center>
+          <asp:GridView ID="TablaReco" runat="server" Width="562px">
+          </asp:GridView>
+                </center>
+          <br>
+
+            </form>
+        </div>
+
+    
+          <br>
+
+        <!-- // grid-gallery -->
+      </div>
+    <section class="footer" id="footer10">
+      <p class="text-center">
+        <a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
+      </p>
+    </section>
+    </section>
+
+    
+
+    <!--Informacion-->
+    <section class="informacion" id="informacion">
+      <div class="container">
+        <div class="heading">
+          <h2>Informacion</h2>
+        </div>
+      </div>
+        <center>
+      <div class="container">
+        <div class="row">
+          <div class="contact-info">
+              <h4>Informacion de Contacto</h4>
+              <h5>Para mayor informacion contantese a:</h5>
+              <ul>
+                <li><i class="fa fa-user fa-2x"></i> Esteban David Alvarez Bor</li>
+                <li><i class="fa fa-indent fa-2x"></i> 201313872 </li>
+                <li><i class="fa fa-phone fa-2x"></i> +502 53163250</li>
+                <li><i class="fa fa-envelope fa-2x"></i> davix93a@outlook.com </li>
+                <li><a href="https://github.com/201313872/Proyecto-Seminario-1.git"><i class="fa fa-github fa-2x"></i></a> Codigo Fuente</li>  
+              </ul>
+          </div>
+        </div>
+      </div>
+        </center>
+    </section>
+
+    <!--footer-->
+    <section class="footer" id="footer">
+      <p class="text-center">
+        <a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
+      </p>
+      <div class="container">
+        <ul>
+          <li><a href="https://twitter.com/_davix"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com/esteban.alvarez.378"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://github.com/201313872"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCeCGfaWfX9QGeJJzGMJx6Kw"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+
+      </div>
+    </section>
+
+  </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/modernizr.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/menustick.js"></script>
+  <script src="js/parallax.js"></script>
+  <script src="js/easing.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/masonry.js"></script>
+  <script src="js/imgloaded.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/colorfinder.js"></script>
+  <script src="js/gridscroll.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/common.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+  <script>
+      wow = new WOW({}).init();
+  </script>
+  <script type="text/javascript">
+      jQuery(function ($) {
+          $(document).ready(function () {
+              //enabling stickUp on the '.navbar-wrapper' class
+              $('.navbar-wrapper').stickUp({
+                  parts: {
+                      0: 'banner',
+                      1: 'aboutus',
+                      2: 'specialties',
+                      3: 'gallery',
+                      4: 'feedback',
+                      5: 'contact'
+                  },
+                  itemClass: 'menuItem',
+                  itemHover: 'active',
+                  topMargin: 'auto'
+              });
+          });
+
+          //Google Map
+          var get_latitude = $('#google-map').data('latitude');
+          var get_longitude = $('#google-map').data('longitude');
+
+          function initialize_google_map() {
+              var myLatlng = new google.maps.LatLng(get_latitude, get_longitude);
+              var mapOptions = {
+                  zoom: 14,
+                  scrollwheel: false,
+                  center: myLatlng
+              };
+              var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
+              var marker = new google.maps.Marker({
+                  position: myLatlng,
+                  map: map
+              });
+          }
+          google.maps.event.addDomListener(window, 'load', initialize_google_map);
+      });
+  </script>
+  <script src="contactform/contactform.js"></script>
+
+
+</body>
+
+</html>

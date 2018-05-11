@@ -1,0 +1,6 @@
+c:\users\david\documents\visual studio 2013\Projects\PerfilSS1\PerfilSS1\obj\Release\PerfilSS1.csprojResolveAssemblyReference.cache
+c:\users\david\documents\visual studio 2013\Projects\PerfilSS1\PerfilSS1\bin\PerfilSS1.dll.config
+c:\users\david\documents\visual studio 2013\Projects\PerfilSS1\PerfilSS1\bin\PerfilSS1.dll
+c:\users\david\documents\visual studio 2013\Projects\PerfilSS1\PerfilSS1\bin\PerfilSS1.pdb
+c:\users\david\documents\visual studio 2013\Projects\PerfilSS1\PerfilSS1\obj\Release\PerfilSS1.dll
+c:\users\david\documents\visual studio 2013\Projects\PerfilSS1\PerfilSS1\obj\Release\PerfilSS1.pdb
